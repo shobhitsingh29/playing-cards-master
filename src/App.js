@@ -36,12 +36,9 @@ const App = () => {
         });
 
         setCardsArray(newCardsArray);
-        debugger;
 
         if (cardPickedArr.length < 52) {
-
             const cardsPickedArray = [...cardPickedArr].concat(randomItemArr);
-            debugger;
             setCardPickedArr(cardsPickedArray);
         }
 
